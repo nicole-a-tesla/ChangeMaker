@@ -7,8 +7,17 @@ public class ChangeMaker {
     public static void main(String[] args) {}
 
     public void makeChange(Integer dollarAmount) {
-        if (dollarAmount < 0) {
+        Boolean dollarAmountIsValid = validateDollarAmount(dollarAmount);
+
+        if (dollarAmountIsValid) {
+            // calculate change
+        } else {
             throw new IllegalArgumentException();
         }
     }
+
+    private boolean validateDollarAmount(Integer dollarAmount) {
+        return dollarAmount >= 0;
+    }
+
 }
