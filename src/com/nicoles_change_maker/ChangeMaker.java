@@ -5,24 +5,56 @@ import java.util.HashMap;
  * Created by bears8yourface on 1/5/16.
  */
 public class ChangeMaker {
-    public static void main(String[] args) {}
+    public HashMap change = new HashMap<String, Integer>();
+    double remainingDollars;
 
     public HashMap makeChange(double dollarAmount) {
+        remainingDollars = dollarAmount;
 
         if (checkDollarAmountIsValid(dollarAmount)) {
             return calculateChange(dollarAmount);
-        } else {
-            throw new IllegalArgumentException();
         }
+        throw new IllegalArgumentException();
     }
 
     private HashMap calculateChange(double dollarAmount) {
-        HashMap change = new HashMap<String, Integer>();
-
-        if (dollarAmount == .01) {
-            change.put("P", 1);
+        if (dollarAmount == 0) {
+            return change;
         }
+
+        handleCoin("Q");
+        handleCoin("D");
+        handleCoin("N");
+        handleCoin("P");
+
         return change;
+    }
+
+    public void handleCoin(String coinType) {
+        double coinValue = getCoinValue(coinType);
+
+        if (remainingDollars >= coinValue) {
+            int numOfCoins = howManyCoins(remainingDollars, coinType);
+            change.put(coinType, numOfCoins);
+            double amountCovered = numOfCoins * coinValue;
+            remainingDollars = calculateRemainingDollars(amountCovered);
+
+        }
+    }
+
+    public double calculateRemainingDollars(double amountCovered) {
+        double remainingDollarsExact = remainingDollars - amountCovered;
+        return Math.round(remainingDollarsExact * 100.0) / 100.0;
+
+    }
+
+    public double getCoinValue(String coinType) {
+        return new CoinValueDictionary().lookup(coinType);
+    }
+
+    public int howManyCoins(double remainingDollars, String coinType){
+        double coinValue = getCoinValue(coinType);
+        return (int) Math.floor(remainingDollars / coinValue);
     }
 
     private boolean checkDollarAmountIsValid(double dollarAmount) {
