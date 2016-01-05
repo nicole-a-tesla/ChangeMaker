@@ -1,7 +1,6 @@
 package com.nicoles_change_maker.test;
 import com.nicoles_change_maker.ChangeMaker;
 import org.junit.*;
-
 import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
@@ -12,6 +11,8 @@ import static org.junit.Assert.assertEquals;
 
 public class ChangeMakerTest {
     ChangeMaker changeMaker;
+    HashMap expectedChange = new HashMap<String,Integer>();
+    HashMap change = new HashMap<String,Integer>();
 
     @Before
     public void setUp() {
@@ -23,16 +24,22 @@ public class ChangeMakerTest {
         changeMaker.makeChange(0);
     }
 
-    @Test
-    public void testChangeForZeroDollars() {
-        HashMap expectedChange = new HashMap<String,String>();
-        HashMap change = changeMaker.makeChange(0);
-        assertEquals(expectedChange, change);
-    }
-
     @Test(expected = IllegalArgumentException.class)
     public void testInputRejectsNegativeInteger() {
         changeMaker.makeChange(-2);
+    }
+
+    @Test
+    public void testChangeForZeroDollars() {
+        change = changeMaker.makeChange(0);
+        assertEquals(expectedChange, change);
+    }
+
+    @Test
+    public void testChangeForOneCent() {
+        expectedChange.put("P", 1);
+        change = changeMaker.makeChange(.01);
+        assertEquals(expectedChange, change);
     }
 
 

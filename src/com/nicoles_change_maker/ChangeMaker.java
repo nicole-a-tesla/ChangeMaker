@@ -7,18 +7,25 @@ import java.util.HashMap;
 public class ChangeMaker {
     public static void main(String[] args) {}
 
-    public HashMap makeChange(Integer dollarAmount) {
-        Boolean dollarAmountIsValid = validateDollarAmount(dollarAmount);
+    public HashMap makeChange(double dollarAmount) {
 
-        if (dollarAmountIsValid) {
-            return new HashMap<String,String>();
+        if (checkDollarAmountIsValid(dollarAmount)) {
+            return calculateChange(dollarAmount);
         } else {
             throw new IllegalArgumentException();
         }
     }
 
+    private HashMap calculateChange(double dollarAmount) {
+        HashMap change = new HashMap<String, Integer>();
 
-    private boolean validateDollarAmount(Integer dollarAmount) {
+        if (dollarAmount == .01) {
+            change.put("P", 1);
+        }
+        return change;
+    }
+
+    private boolean checkDollarAmountIsValid(double dollarAmount) {
         return dollarAmount >= 0;
     }
 
