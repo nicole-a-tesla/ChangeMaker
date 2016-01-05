@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2006dd-5fbd-4a1c-b73b-d76ff1ddc875" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/com/nicoles_change_maker/test/ChangeMakerTest.java" afterPath="$PROJECT_DIR$/Test/com/nicoles_change_maker/test/ChangeMakerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java" afterPath="$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java" />
     </list>
     <ignored path="ChangeMaker.iws" />
@@ -28,18 +28,18 @@
     <favorites_list name="ChangeMaker" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6195652">
+    <splitter split-orientation="horizontal" split-proportion="0.49288255">
       <split-first>
         <leaf>
           <file leaf-file-name="ChangeMaker.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.36855036">
-                  <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.78409094">
+                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                   <folding>
                     <element signature="docComment;class#ChangeMaker#0" expanded="false" />
-                    <element signature="e#497#498#0" expanded="true" />
-                    <element signature="e#537#538#0" expanded="true" />
+                    <element signature="e#544#545#0" expanded="true" />
+                    <element signature="e#584#585#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -52,16 +52,16 @@
           <file leaf-file-name="ChangeMakerTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Test/com/nicoles_change_maker/test/ChangeMakerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.004914005">
-                  <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.45454547">
+                  <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#296#297#0" expanded="true" />
-                    <element signature="e#343#344#0" expanded="true" />
-                    <element signature="e#404#405#0" expanded="true" />
-                    <element signature="e#445#446#0" expanded="true" />
-                    <element signature="e#551#552#0" expanded="true" />
-                    <element signature="e#593#594#0" expanded="true" />
+                    <element signature="e#324#325#0" expanded="true" />
+                    <element signature="e#371#372#0" expanded="true" />
+                    <element signature="e#432#433#0" expanded="true" />
+                    <element signature="e#473#474#0" expanded="true" />
+                    <element signature="e#802#803#0" expanded="true" />
+                    <element signature="e#844#845#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -96,10 +96,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="110" />
-    <option name="width" value="1231" />
-    <option name="height" value="740" />
+    <option name="x" value="26" />
+    <option name="y" value="23" />
+    <option name="width" value="1251" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -543,52 +543,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChangeMakerTest - 2016.01.05 at 13h 17m 56s.xml">
-      <configuration name="ChangeMakerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeMakerTest - 2016.01.05 at 13h 18m 03s.xml">
-      <configuration name="ChangeMakerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeMakerTest - 2016.01.05 at 13h 23m 11s.xml">
-      <configuration name="ChangeMakerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeMakerTest - 2016.01.05 at 13h 23m 51s.xml">
-      <configuration name="ChangeMakerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeMakerTest - 2016.01.05 at 13h 29m 47s.xml">
-      <configuration name="ChangeMakerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeMakerTest - 2016.01.05 at 13h 30m 35s.xml">
-      <configuration name="ChangeMakerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeMakerTest - 2016.01.05 at 13h 32m 47s.xml">
-      <configuration name="ChangeMakerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeMakerTest - 2016.01.05 at 13h 46m 56s.xml">
-      <configuration name="ChangeMakerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ChangeMakerTest - 2016.01.05 at 13h 55m 34s.xml">
       <configuration name="ChangeMakerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ChangeMakerTest - 2016.01.05 at 13h 56m 07s.xml">
       <configuration name="ChangeMakerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ChangeMakerTest - 2016.01.05 at 14h 03m 41s.xml">
+      <configuration name="ChangeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeMakerTest - 2016.01.05 at 14h 05m 45s.xml">
+      <configuration name="ChangeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeMakerTest - 2016.01.05 at 14h 06m 36s.xml">
+      <configuration name="ChangeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeMakerTest - 2016.01.05 at 14h 07m 40s.xml">
+      <configuration name="ChangeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeMakerTest - 2016.01.05 at 14h 09m 19s.xml">
+      <configuration name="ChangeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeMakerTest - 2016.01.05 at 14h 11m 15s.xml">
+      <configuration name="ChangeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeMakerTest - 2016.01.05 at 14h 12m 34s.xml">
+      <configuration name="ChangeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeMakerTest - 2016.01.05 at 14h 13m 17s.xml">
+      <configuration name="ChangeMakerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="110" width="1231" height="740" extended-state="0" />
+    <frame x="26" y="23" width="1251" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33024693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31277534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07148865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07030604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -616,28 +616,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Test/com/nicoles_change_maker/test/ChangeMakerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.004914005">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.45454547">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36855036">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.78409094">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#ChangeMaker#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
           </folding>
         </state>
       </provider>
