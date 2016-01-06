@@ -20,10 +20,10 @@ public class ChangeMaker {
     public HashMap evaluateEachCoinAmount() {
         HashMap changeCollection = new HashMap();
 
-        Iterator coinIterator = new CoinMap().dictionary.entrySet().iterator(); // DEAL WITH THIS
+        Iterator coinIterator = new CoinMap().dictionary.entrySet().iterator(); 
 
         while(coinIterator.hasNext()) {
-            Map.Entry mapping = (Map.Entry) coinIterator.next(); // SEPARATE OUT BODY?
+            Map.Entry mapping = (Map.Entry) coinIterator.next();
             String coinType = (String) mapping.getKey();
             Double coinValue = (Double) mapping.getValue();
 
