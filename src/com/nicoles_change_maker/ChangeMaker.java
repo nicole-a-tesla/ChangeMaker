@@ -23,13 +23,13 @@ public class ChangeMaker {
 
         while(coinIterator.hasNext()) {
             Map.Entry coinValueMapping = (Map.Entry) coinIterator.next();
-            evaluateCoinAmount(changeCollection, coinValueMapping);
+            evaluateCoinAmountForInclusionInChangeCollection(changeCollection, coinValueMapping);
         }
 
         return changeCollection;
     }
 
-    private void evaluateCoinAmount(HashMap changeCollection, Map.Entry coinValueMapping) {
+    private void evaluateCoinAmountForInclusionInChangeCollection(HashMap changeCollection, Map.Entry coinValueMapping) {
         String coinType = (String) coinValueMapping.getKey();
         Double coinValue = (Double) coinValueMapping.getValue();
 
