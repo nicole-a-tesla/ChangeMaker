@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2006dd-5fbd-4a1c-b73b-d76ff1ddc875" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/ChangeMaker/com/nicoles_change_maker/test/CoinValuesTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Test/com/nicoles_change_maker/test/CoinValuesTest.java" afterPath="$PROJECT_DIR$/Test/com/nicoles_change_maker/test/CoinMapTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ChangeMaker/com/nicoles_change_maker/ChangeMaker.class" afterPath="$PROJECT_DIR$/out/production/ChangeMaker/com/nicoles_change_maker/ChangeMaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ChangeMaker/com/nicoles_change_maker/CoinMap$1.class" afterPath="$PROJECT_DIR$/out/production/ChangeMaker/com/nicoles_change_maker/CoinMap$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ChangeMaker/com/nicoles_change_maker/CoinMap.class" afterPath="$PROJECT_DIR$/out/production/ChangeMaker/com/nicoles_change_maker/CoinMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java" afterPath="$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/nicoles_change_maker/CoinMap.java" afterPath="$PROJECT_DIR$/src/com/nicoles_change_maker/CoinMap.java" />
     </list>
@@ -41,36 +35,39 @@
             <entry file="file://$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+                  <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="docComment;class#ChangeMaker#0" expanded="false" />
-                    <element signature="e#1998#1999#0" expanded="true" />
-                    <element signature="e#2067#2068#0" expanded="true" />
-                    <element signature="e#2136#2137#0" expanded="true" />
-                    <element signature="e#2176#2177#0" expanded="true" />
+                    <element signature="e#1979#1980#0" expanded="true" />
+                    <element signature="e#2048#2049#0" expanded="true" />
+                    <element signature="e#2117#2118#0" expanded="true" />
+                    <element signature="e#2157#2158#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CoinMap.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="CoinMap.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/nicoles_change_maker/CoinMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+                <state vertical-scroll-proportion="0.39719626">
+                  <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
                   <folding>
+                    <element signature="imports" expanded="true" />
                     <element signature="docComment;class#CoinMap#0" expanded="false" />
+                    <element signature="e#451#452#0" expanded="true" />
+                    <element signature="e#506#507#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CoinMapTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="CoinMapTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Test/com/nicoles_change_maker/test/CoinMapTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.1635514">
-                  <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="docComment;class#CoinMapTest#0" expanded="false" />
@@ -139,9 +136,9 @@
         <option value="$PROJECT_DIR$/src/com/nicoles_change_maker/CoinValueDictionary.java" />
         <option value="$PROJECT_DIR$/Test/com/nicoles_change_maker/test/ChangeMakerTest.java" />
         <option value="$PROJECT_DIR$/src/com/nicoles_change_maker/CoinValues.java" />
-        <option value="$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java" />
-        <option value="$PROJECT_DIR$/src/com/nicoles_change_maker/CoinMap.java" />
         <option value="$PROJECT_DIR$/Test/com/nicoles_change_maker/test/CoinValuesTest.java" />
+        <option value="$PROJECT_DIR$/src/com/nicoles_change_maker/CoinMap.java" />
+        <option value="$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java" />
       </list>
     </option>
   </component>
@@ -656,9 +653,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChangeMakerTest - 2016.01.06 at 13h 12m 10s.xml">
-      <configuration name="ChangeMakerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ChangeMakerTest - 2016.01.06 at 13h 13m 41s.xml">
       <configuration name="ChangeMakerTest" configurationId="JUnit" />
     </history-entry>
@@ -684,6 +678,9 @@
       <configuration name="ChangeMakerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ChangeMakerTest - 2016.01.06 at 13h 29m 46s.xml">
+      <configuration name="ChangeMakerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeMakerTest - 2016.01.06 at 13h 32m 27s.xml">
       <configuration name="ChangeMakerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -766,35 +763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#ChangeMaker#0" expanded="false" />
-            <element signature="e#1998#1999#0" expanded="true" />
-            <element signature="e#2067#2068#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nicoles_change_maker/CoinMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="docComment;class#CoinMap#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/com/nicoles_change_maker/test/CoinMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1635514">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#CoinMapTest#0" expanded="false" />
@@ -808,6 +780,34 @@
             <element signature="e#775#776#0" expanded="true" />
             <element signature="e#826#827#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicoles_change_maker/ChangeMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ChangeMaker#0" expanded="false" />
+            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2117#2118#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicoles_change_maker/CoinMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39719626">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#CoinMap#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
           </folding>
         </state>
       </provider>

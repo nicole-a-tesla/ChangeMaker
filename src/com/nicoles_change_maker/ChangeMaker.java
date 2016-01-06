@@ -19,7 +19,7 @@ public class ChangeMaker {
 
     public HashMap evaluateEachCoinAmount() {
         HashMap changeCollection = new HashMap();
-        Iterator coinIterator = new CoinMap().dictionary.entrySet().iterator();
+        Iterator coinIterator = new CoinMap().getIterator();
 
         while(coinIterator.hasNext()) {
             Map.Entry coinValueMapping = (Map.Entry) coinIterator.next();
