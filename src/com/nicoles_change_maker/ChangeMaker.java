@@ -19,17 +19,21 @@ public class ChangeMaker {
 
     public HashMap evaluateEachCoinAmount() {
         HashMap changeCollection = new HashMap();
-
-        Iterator coinIterator = new CoinMap().dictionary.entrySet().iterator(); 
+        Iterator coinIterator = new CoinMap().dictionary.entrySet().iterator();
 
         while(coinIterator.hasNext()) {
-            Map.Entry mapping = (Map.Entry) coinIterator.next();
-            String coinType = (String) mapping.getKey();
-            Double coinValue = (Double) mapping.getValue();
-
-            handlePossibleCoinAddition(coinType, coinValue, changeCollection);
+            Map.Entry coinValueMapping = (Map.Entry) coinIterator.next();
+            evaluateCoinAmount(changeCollection, coinValueMapping);
         }
+
         return changeCollection;
+    }
+
+    private void evaluateCoinAmount(HashMap changeCollection, Map.Entry coinValueMapping) {
+        String coinType = (String) coinValueMapping.getKey();
+        Double coinValue = (Double) coinValueMapping.getValue();
+
+        handlePossibleCoinAddition(coinType, coinValue, changeCollection);
     }
 
     private void handlePossibleCoinAddition(String coinType, double coinValue, HashMap changeCollection) {

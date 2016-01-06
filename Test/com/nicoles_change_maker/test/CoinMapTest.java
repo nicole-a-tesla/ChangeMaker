@@ -7,9 +7,9 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by bears8yourface on 1/5/16.
  */
-public class CoinValuesTest {
-    CoinMap coinValues = new CoinMap();
-    HashMap dictionary = coinValues.dictionary;
+public class CoinMapTest {
+    CoinMap coinMap = new CoinMap();
+    HashMap dictionary = coinMap.dictionary;
     private static final double DELTA = .001;
 
     @Test
@@ -35,30 +35,5 @@ public class CoinValuesTest {
     @Test
     public void testHalfDollarValue() {
         assertEquals(.50, dictionary.get("H"));
-    }
-
-    @Test
-    public void testPennyLookup(){
-        assertEquals(.01, coinValues.lookup("P"), DELTA);
-    }
-
-    @Test
-    public void testNickelLookup(){
-        assertEquals(.05, coinValues.lookup("N"), DELTA);
-    }
-
-    @Test
-    public void testDimeLookup(){
-        assertEquals(.10, coinValues.lookup("D"), DELTA);
-    }
-
-    @Test
-    public void testQuarterLookup(){
-        assertEquals(.25, coinValues.lookup("Q"), DELTA);
-    }
-
-    @Test
-    public void testHalfDollarLookup(){
-        assertEquals(.50, coinValues.lookup("H"), DELTA);
     }
 }
