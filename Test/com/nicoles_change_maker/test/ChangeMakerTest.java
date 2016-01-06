@@ -192,11 +192,44 @@ public class ChangeMakerTest {
         assertEquals(expectedChange, change);
     }
 
-
     @Test
     public void testChangeForTwentyFiveCents(){
         expectedChange.put("Q", 1);
         change = changeMaker.makeChange(.25);
+        assertEquals(expectedChange, change);
+    }
+
+    @Test
+    public void testChangeForThirtySevenCents(){
+        expectedChange.put("Q", 1);
+        expectedChange.put("D", 1);
+        expectedChange.put("P", 2);
+        change = changeMaker.makeChange(.37);
+        assertEquals(expectedChange, change);
+    }
+
+    @Test
+    public void testChangeForFiftyCents(){
+        expectedChange.put("H", 1);
+        change = changeMaker.makeChange(.50);
+        assertEquals(expectedChange, change);
+    }
+
+
+    @Test
+    public void testChangeForOneDollar(){
+        expectedChange.put("H", 2);
+        change = changeMaker.makeChange(1);
+        assertEquals(expectedChange, change);
+    }
+
+    @Test
+    public void testChangeForOneDollarThirtyThree(){
+        expectedChange.put("H", 2);
+        expectedChange.put("Q", 1);
+        expectedChange.put("N", 1);
+        expectedChange.put("P", 3);
+        change = changeMaker.makeChange(1.33);
         assertEquals(expectedChange, change);
     }
 }

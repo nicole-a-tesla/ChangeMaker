@@ -22,6 +22,7 @@ public class ChangeMaker {
             return change;
         }
 
+        handleCoin("H");
         handleCoin("Q");
         handleCoin("D");
         handleCoin("N");
