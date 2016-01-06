@@ -1,5 +1,5 @@
 package com.nicoles_change_maker.test;
-import com.nicoles_change_maker.CoinValues;
+import com.nicoles_change_maker.CoinMap;
 import org.junit.*;
 import java.util.HashMap;
 import static org.junit.Assert.assertEquals;
@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
  * Created by bears8yourface on 1/5/16.
  */
 public class CoinValuesTest {
-    CoinValues coinValues = new CoinValues();
+    CoinMap coinValues = new CoinMap();
     HashMap dictionary = coinValues.dictionary;
     private static final double DELTA = .001;
 

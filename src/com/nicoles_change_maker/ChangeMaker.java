@@ -1,59 +1,57 @@
 package com.nicoles_change_maker;
-import java.util.*;
-import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Iterator;
 /**
  * Created by bears8yourface on 1/5/16.
  */
 public class ChangeMaker {
-    public HashMap change = new HashMap<String, Integer>();
     double remainingDollars;
-    public CoinValues coinValues = new CoinValues();
-    public ArrayList<String> coinTypes = new ArrayList<String>(Arrays.asList("H", "Q", "D", "N", "P"));
 
     public HashMap makeChange(double dollarAmount) {
         remainingDollars = dollarAmount;
 
         if (checkDollarAmountIsValid(dollarAmount)) {
-            return calculateChange();
+            return evaluateEachCoinAmount();
         }
         throw new IllegalArgumentException();
     }
 
-    private HashMap calculateChange() {
-        handleCoins(coinTypes);
-        return change;
-    }
+    public HashMap evaluateEachCoinAmount() {
+        HashMap changeCollection = new HashMap();
 
-    public void handleCoins(ArrayList<String> coinTypes) {
-        for (String coinType : coinTypes) {
-            handleCoin(coinType);
+        Iterator coinIterator = new CoinMap().dictionary.entrySet().iterator(); // DEAL WITH THIS
+
+        while(coinIterator.hasNext()) {
+            Map.Entry mapping = (Map.Entry) coinIterator.next(); // SEPARATE OUT BODY?
+            String coinType = (String) mapping.getKey();
+            Double coinValue = (Double) mapping.getValue();
+
+            handlePossibleCoinAddition(coinType, coinValue, changeCollection);
         }
+        return changeCollection;
     }
 
-    public void handleCoin(String coinType) {
-        double coinValue = getCoinValue(coinType);
-
+    private void handlePossibleCoinAddition(String coinType, double coinValue, HashMap changeCollection) {
         if (remainingDollars >= coinValue) {
-            int numOfCoins = howManyCoins(remainingDollars, coinType);
-            change.put(coinType, numOfCoins);
-            double amountCovered = numOfCoins * coinValue;
-            remainingDollars = calculateRemainingDollars(amountCovered);
-
+            int numOfCoins = howManyCoins(coinValue);
+            changeCollection.put(coinType, numOfCoins);
+            deductFromRemainingDollars(numOfCoins, coinValue);
         }
     }
 
-    public double calculateRemainingDollars(double amountCovered) {
+    private void deductFromRemainingDollars(int numOfCoins, double coinValue) {
+        double amountCovered = numOfCoins * coinValue;
+        remainingDollars = calculateRemainingDollars(amountCovered);
+    }
+
+    private double calculateRemainingDollars(double amountCovered) {
         double remainingDollarsExact = remainingDollars - amountCovered;
         return Math.round(remainingDollarsExact * 100.0) / 100.0;
 
     }
 
-    public double getCoinValue(String coinType) {
-        return coinValues.lookup(coinType);
-    }
-
-    public int howManyCoins(double remainingDollars, String coinType){
-        double coinValue = getCoinValue(coinType);
+    private int howManyCoins(double coinValue){
         return (int) Math.floor(remainingDollars / coinValue);
     }
 
