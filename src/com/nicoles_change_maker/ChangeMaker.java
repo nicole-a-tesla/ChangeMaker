@@ -40,13 +40,8 @@ public class ChangeMaker {
         if (remainingDollars >= coinValue) {
             int numOfCoins = howManyCoins(coinValue);
             changeCollection.put(coinType, numOfCoins);
-            deductFromRemainingDollars(numOfCoins, coinValue);
+            remainingDollars = calculateRemainingDollars(numOfCoins * coinValue);
         }
-    }
-
-    private void deductFromRemainingDollars(int numOfCoins, double coinValue) {
-        double amountCovered = numOfCoins * coinValue;
-        remainingDollars = calculateRemainingDollars(amountCovered);
     }
 
     private double calculateRemainingDollars(double amountCovered) {
