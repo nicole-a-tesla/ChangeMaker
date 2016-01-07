@@ -17,7 +17,7 @@ public class ChangeMaker {
         throw new IllegalArgumentException();
     }
 
-    public HashMap evaluateEachCoinAmount() {
+    private HashMap evaluateEachCoinAmount() {
         HashMap changeCollection = new HashMap();
         Iterator coinIterator = new CoinMap().getIterator();
 
