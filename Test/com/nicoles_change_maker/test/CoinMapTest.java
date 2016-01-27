@@ -4,9 +4,6 @@ import org.junit.*;
 import java.util.HashMap;
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by bears8yourface on 1/5/16.
- */
 public class CoinMapTest {
     CoinMap coinMap = new CoinMap();
     HashMap dictionary = coinMap.dictionary;

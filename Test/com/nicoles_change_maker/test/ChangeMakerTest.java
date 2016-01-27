@@ -5,14 +5,11 @@ import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by bears8yourface on 1/5/16.
- */
 
 public class ChangeMakerTest {
     ChangeMaker changeMaker;
-    HashMap expectedChange = new HashMap<String,Integer>();
-    HashMap change = new HashMap<String,Integer>();
+    HashMap <String,Integer> expectedChange = new HashMap();
+    HashMap <String,Integer> change = new HashMap();
 
     @Before
     public void setUp() {
