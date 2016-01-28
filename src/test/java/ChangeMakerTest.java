@@ -34,7 +34,7 @@ public class ChangeMakerTest {
 
     @Test
     public void testChangeForOneCent() {
-//        expectedChange.put("P", 1);
+        expectedChange.put("P", 1);
         change = changeMaker.makeChange(.01);
         Assert.assertEquals(expectedChange, change);
     }
