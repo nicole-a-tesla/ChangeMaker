@@ -16,3 +16,11 @@ test {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
+
+sourceSets {
+    test {
+        resources {
+            srcDir: "test"
+        }
+    }
+}
