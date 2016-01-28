@@ -1,3 +1,4 @@
 language: java
 
-script: junit ChangeMakerTest
+before_install:
+  - cd java
