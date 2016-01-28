@@ -2,9 +2,7 @@ package main.java;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Iterator;
-/**
- * Created by bears8yourface on 1/5/16.
- */
+
 public class ChangeMaker {
     double remainingDollars;
 

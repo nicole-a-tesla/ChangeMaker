@@ -3,9 +3,6 @@ import main.java.ChangeMaker;
 import org.junit.*;
 import java.util.HashMap;
 
-import static org.junit.Assert.assertEquals;
-
-
 public class ChangeMakerTest {
     ChangeMaker changeMaker;
     HashMap <String,Integer> expectedChange = new HashMap();
