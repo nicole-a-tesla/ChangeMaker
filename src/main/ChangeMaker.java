@@ -1,4 +1,4 @@
-package com.nicoles_change_maker;
+package main;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Iterator;

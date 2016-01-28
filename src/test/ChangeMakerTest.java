@@ -1,5 +1,5 @@
-package com.nicoles_change_maker.test;
-import com.nicoles_change_maker.ChangeMaker;
+package test;
+import main.ChangeMaker;
 import org.junit.*;
 import java.util.HashMap;
 
@@ -29,42 +29,42 @@ public class ChangeMakerTest {
     @Test
     public void testChangeForZeroDollars() {
         change = changeMaker.makeChange(0);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
     public void testChangeForOneCent() {
 //        expectedChange.put("P", 1);
         change = changeMaker.makeChange(.01);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
     public void testChangeForTwoCents() {
         expectedChange.put("P", 2);
         change = changeMaker.makeChange(.02);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
     public void testChangeForThreeCents() {
         expectedChange.put("P", 3);
         change = changeMaker.makeChange(.03);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
     public void testChangeForFourCents() {
         expectedChange.put("P", 4);
         change = changeMaker.makeChange(.04);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
     public void testChangeForFiveCents(){
         expectedChange.put("N", 1);
         change = changeMaker.makeChange(.05);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -72,7 +72,7 @@ public class ChangeMakerTest {
         expectedChange.put("N", 1);
         expectedChange.put("P", 1);
         change = changeMaker.makeChange(.06);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -80,7 +80,7 @@ public class ChangeMakerTest {
         expectedChange.put("N", 1);
         expectedChange.put("P", 2);
         change = changeMaker.makeChange(.07);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -88,7 +88,7 @@ public class ChangeMakerTest {
         expectedChange.put("N", 1);
         expectedChange.put("P", 3);
         change = changeMaker.makeChange(.08);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -96,14 +96,14 @@ public class ChangeMakerTest {
         expectedChange.put("N", 1);
         expectedChange.put("P", 4);
         change = changeMaker.makeChange(.09);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
     public void testChangeForTenCents(){
         expectedChange.put("D", 1);
         change = changeMaker.makeChange(.10);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -111,7 +111,7 @@ public class ChangeMakerTest {
         expectedChange.put("D", 1);
         expectedChange.put("P", 1);
         change = changeMaker.makeChange(.11);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -119,7 +119,7 @@ public class ChangeMakerTest {
         expectedChange.put("D", 1);
         expectedChange.put("P", 2);
         change = changeMaker.makeChange(.12);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -127,7 +127,7 @@ public class ChangeMakerTest {
         expectedChange.put("D", 1);
         expectedChange.put("P", 3);
         change = changeMaker.makeChange(.13);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -135,7 +135,7 @@ public class ChangeMakerTest {
         expectedChange.put("D", 1);
         expectedChange.put("P", 4);
         change = changeMaker.makeChange(.14);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -143,7 +143,7 @@ public class ChangeMakerTest {
         expectedChange.put("D", 1);
         expectedChange.put("N", 1);
         change = changeMaker.makeChange(.15);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -152,7 +152,7 @@ public class ChangeMakerTest {
         expectedChange.put("N", 1);
         expectedChange.put("P", 1);
         change = changeMaker.makeChange(.16);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -161,7 +161,7 @@ public class ChangeMakerTest {
         expectedChange.put("N", 1);
         expectedChange.put("P", 2);
         change = changeMaker.makeChange(.17);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -170,7 +170,7 @@ public class ChangeMakerTest {
         expectedChange.put("N", 1);
         expectedChange.put("P", 3);
         change = changeMaker.makeChange(.18);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -179,21 +179,21 @@ public class ChangeMakerTest {
         expectedChange.put("N", 1);
         expectedChange.put("P", 4);
         change = changeMaker.makeChange(.19);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
     public void testChangeForTwentyCents(){
         expectedChange.put("D", 2);
         change = changeMaker.makeChange(.20);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
     public void testChangeForTwentyFiveCents(){
         expectedChange.put("Q", 1);
         change = changeMaker.makeChange(.25);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -202,14 +202,14 @@ public class ChangeMakerTest {
         expectedChange.put("D", 1);
         expectedChange.put("P", 2);
         change = changeMaker.makeChange(.37);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
     public void testChangeForFiftyCents(){
         expectedChange.put("H", 1);
         change = changeMaker.makeChange(.50);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
 
@@ -217,7 +217,7 @@ public class ChangeMakerTest {
     public void testChangeForOneDollar(){
         expectedChange.put("H", 2);
         change = changeMaker.makeChange(1);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 
     @Test
@@ -227,6 +227,6 @@ public class ChangeMakerTest {
         expectedChange.put("N", 1);
         expectedChange.put("P", 3);
         change = changeMaker.makeChange(1.33);
-        assertEquals(expectedChange, change);
+        Assert.assertEquals(expectedChange, change);
     }
 }

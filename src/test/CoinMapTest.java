@@ -1,5 +1,5 @@
-package com.nicoles_change_maker.test;
-import com.nicoles_change_maker.CoinMap;
+package test;
+import main.CoinMap;
 import org.junit.*;
 import java.util.HashMap;
 import static org.junit.Assert.assertEquals;
@@ -11,26 +11,26 @@ public class CoinMapTest {
 
     @Test
     public void testPennyValue() {
-        assertEquals(.01, dictionary.get("P"));
+        Assert.assertEquals(.01, dictionary.get("P"));
     }
 
     @Test
     public void testNickelValue() {
-        assertEquals(.05, dictionary.get("N"));
+        Assert.assertEquals(.05, dictionary.get("N"));
     }
 
     @Test
     public void testDimeValue() {
-        assertEquals(.10, dictionary.get("D"));
+        Assert.assertEquals(.10, dictionary.get("D"));
     }
 
     @Test
     public void testQuarterValue() {
-        assertEquals(.25, dictionary.get("Q"));
+        Assert.assertEquals(.25, dictionary.get("Q"));
     }
 
     @Test
     public void testHalfDollarValue() {
-        assertEquals(.50, dictionary.get("H"));
+        Assert.assertEquals(.50, dictionary.get("H"));
     }
 }
