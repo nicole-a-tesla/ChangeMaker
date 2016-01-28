@@ -8,6 +8,10 @@ import java.util.Iterator;
 public class ChangeMaker {
     double remainingDollars;
 
+    public static void main(String[] args) {
+        
+    }
+
     public HashMap makeChange(double dollarAmount) {
         remainingDollars = dollarAmount;
 
