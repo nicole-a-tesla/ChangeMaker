@@ -1,5 +1,5 @@
-package test;
-import main.CoinMap;
+package test.java;
+import main.java.CoinMap;
 import org.junit.*;
 import java.util.HashMap;
 import static org.junit.Assert.assertEquals;

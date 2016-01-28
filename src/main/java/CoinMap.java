@@ -1,4 +1,4 @@
-package main;
+package main.java;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 

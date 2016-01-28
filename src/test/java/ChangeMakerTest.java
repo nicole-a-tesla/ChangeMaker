@@ -1,5 +1,5 @@
-package test;
-import main.ChangeMaker;
+package test.java;
+import main.java.ChangeMaker;
 import org.junit.*;
 import java.util.HashMap;
 
